@@ -16,5 +16,10 @@ h1 {
     margin-bottom: 15px;
     margin-top: 10px;
     margin-left: 3px;
-    margin-right: 3px;
+    margin-right: 3px;´
+    text-align: center;
+}
+
+#box-second {
+    background-color: blueviolet;
 }
