@@ -24,3 +24,12 @@ h1 {
 #box-second {
     background-color: blueviolet;
 }
+
+.success {
+    border-radius: 25px;
+    background-color: green;
+    border: 2px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10;
+}
