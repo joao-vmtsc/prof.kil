@@ -37,4 +37,8 @@ h1 {
 
 .succes:hover {
     background-color: rgb(158,227,158);
+    padding: 11px 16px 11px 16px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
 }
