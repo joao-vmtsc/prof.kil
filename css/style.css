@@ -34,3 +34,7 @@ h1 {
     font-size: 10;
     padding: 10px 5px 10px 5px;
 }
+
+.succes:hover {
+    background-color: rgb(158,227,158);
+}
