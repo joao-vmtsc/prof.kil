@@ -25,5 +25,14 @@ function Informacao() {
     let hobby = prompt("Digite seu hobby favorito: ");
     alert("Seu hobby favorito é " + hobby + ".");
 
+    let salarioMensal = parseFloat(prompt("Digite seu salário mensal:"));
+    alert("Seu salário é R$ " + salarioMensal.toFixed(2));
+
+    let alimentacao = parseFloat(prompt("Digite seu gasto com alimentação mensal:"));
+    alert("Seu gasto co alimentação é de R$" + alimentacao.toFixed(2));
+
+    let saldo = salarioMensal - alimentacao;
+    alert("Seu saldo final é R$" + saldo.toFixed(2));
+
     alert("Cadastro finalizado com sucesso!");
 }
